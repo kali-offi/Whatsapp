@@ -33,3 +33,6 @@
     border-radius: 25px 10px 10px 2px;
     color: black;
 }
+.view-size{
+    height: 100vh;
+}

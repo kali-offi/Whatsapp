@@ -27,7 +27,7 @@ const Login = () => {
             {loading ? <div className="login-spinner">
                 <Loading />
             </div> :
-                <div className='login-bg d-flex justify-content-center align-items-center flex-column' style={{ height: '100vh' }}>
+                <div className='login-bg d-flex justify-content-center align-items-center flex-column view-size' >
                     <h1 className='text-white mb-4'>{signState}</h1>
                     <form action="POST" className=''>
                         <div className="d-flex justify-content-center align-items-center flex-column ">

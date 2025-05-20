@@ -37,32 +37,11 @@ const ChatBox = () => {
     setSelectedId(id)
   }
 
-  //scroll logics
-
-  const scrollRef=useRef()
-  useEffect(()=>{
-    const container=scrollRef.current;
-    let timeout;
-
-    const handleScroll=()=>{
-      container.classList.add('scrolling');
-        clearTimeout(timeout);
-        timeout=setTimeout(()=>{
-          container.classList.remove('scrolling');
-
-        },1000)
-    }
-    container.addEventListener('scroll',handleScroll)
-    return ()=> container.removeEventListener('scroll',handleScroll)
-  },[])
-
-
-
   return (
     <>
-      <header className='w-100'>
-        <div ref={scrollRef} className='navee w-100 p-0 pe-1'>
-          <div className="header">
+      <header className='w-100 '>
+        <div className=' navee w-100 p-0  px-2 '>
+          <div className="header position-sticky top-0 z-2">
             <div className="py-2 d-flex justify-content-between align-items-center">
               <div className="img ">
                 <img src={avatar10} className='rounded-5' style={{ height: '40px', width: '44px' }} alt="" />

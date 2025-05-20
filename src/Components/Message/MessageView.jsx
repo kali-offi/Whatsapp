@@ -65,7 +65,7 @@ const MessageView = () => {
 
   return (
     <>
-      <section style={{ height: '100vh' }} className=" view d-lg-block ">
+      <section className=" view-size view d-lg-block ">
         <header className="message-header   ">
           <div className="py-2 container-fluid d-flex justify-content-between align-items-center">
             <div className="righty d-flex align-items-center">

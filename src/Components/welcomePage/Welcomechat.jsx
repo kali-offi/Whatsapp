@@ -5,7 +5,7 @@ import msg from '../../assets/Images/msg.jpeg'
 const Welcomechat = () => {
   return (
     <>
-      <section style={{ height: '100vh' }} className='welcome-body d-flex flex-column justify-content-center align-items-center'>
+      <section  className='view-size  welcome-body d-flex flex-column justify-content-center align-items-center'>
         <img style={{height:'200px'}}  className='img-fluid' src={msg} alt="" />
         <div className="contents mt-4 text-center">
           <h4 className=''>Whatsapp Web Clone</h4>

@@ -15,6 +15,9 @@ header{
     background-color:var(--body_background);
     color: var(--body_color);
 }
+.header{
+        background-color:var(--body_background);
+}
 .navee{
     width: 300px;
     height: 100vh;

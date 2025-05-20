@@ -19,7 +19,7 @@ const Layout = () => {
     
       <section className=''>
         <div className="d-lg-flex  d-md-flex">
-          <div className={`col-12 col-md-4 ${!isLoginPage && isMobile && isChatRoute ? 'd-none' : ''}`}>
+          <div className={` col-12 col-md-4 ${!isLoginPage && isMobile && isChatRoute ? 'd-none' : ''}`}>
             <ChatBox />
           </div>
           <div className={`col-12 col-md-8 ${isMobile && !isChatRoute ? 'd-none' : ''}`}>
