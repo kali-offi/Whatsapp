@@ -5,7 +5,7 @@ import LoginPage from './Components/LoginPage/LoginPage'
 import { onAuthStateChanged } from 'firebase/auth'
 import { createContext, useEffect, useState } from 'react'
 import Layout from './Components/Layout'
-import { Data } from './assets/Data'
+import { Data } from './assets/Data.js'
 
 export const chatContext = createContext();
 function App() {

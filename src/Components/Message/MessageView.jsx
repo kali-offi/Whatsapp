@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './messageview.css'
 import { useNavigate, useParams } from 'react-router-dom'
-import { Data } from '../..//assets/Data'
+import { Data } from '../..//assets/Data.js'
 import send from '../../assets/Images/send-btn.png'
 import Useismobile from '../Others/Useismobile'
 import { chatContext } from '../../App'

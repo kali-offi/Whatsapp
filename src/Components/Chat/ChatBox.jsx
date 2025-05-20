@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
-import avatar10 from '../../assets/Images/Avatar-10.jpeg'
+import Avatar10 from '../../assets/Images/Avatar-10.jpeg'
 import './chatbox.css'
-import { Data } from '../../assets/Data'
+import { Data } from '../../assets/Data.js'
 import { useNavigate } from 'react-router-dom'
 import { logout } from '../../assets/firebase'
 import { chatContext } from '../../App'
@@ -65,7 +65,7 @@ const ChatBox = () => {
           <div className="header">
             <div className="py-2 d-flex justify-content-between align-items-center">
               <div className="img ">
-                <img src={avatar10} className='rounded-5' style={{ height: '40px', width: '44px' }} alt="" />
+                <img src={Avatar10} className='rounded-5' style={{ height: '40px', width: '44px' }} alt="" />
 
               </div>
               <div className="options d-flex justify-content-between align-items-center">
