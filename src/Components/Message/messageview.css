@@ -1,0 +1,35 @@
+.view{
+    background: url('../assets/Images/bg-chat.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: var(--body_background);
+    position: relative;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.message-header ,.footer {
+    background-color: var(--body_background) ;
+    color: var(--body_color);
+    
+}
+.message-type{
+    background: transparent;
+    color: var(--body_color);  
+}
+.timestamp{
+    font-size: 10px;
+    color: black;
+}
+.msg-back{
+    background-color:rgb(220,248,199);
+    border-radius: 10px 25px 2px 10px;
+    color: black;
+}
+.msg-receive{
+     background-color:white;
+    border-radius: 25px 10px 10px 2px;
+    color: black;
+}

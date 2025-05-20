@@ -1,0 +1,16 @@
+ :root{
+    --body_background: rgb(219,217,212);
+    --body_color:black;
+    --body_color2:white;
+    --body_color3:rgb(7,94,84);
+    --body_input:black;
+   
+ }
+[data-theme='dark']{
+    --body_background: rgb(33,46,53);
+    --body_background_nav: rgb(17,27,33);
+    --body_color:white;
+    --body_color2:black;
+    --body_color3: rgb(17,27,33);
+    --body_input:rgb(7,94,84);
+}

@@ -1,0 +1,57 @@
+.login-bg{
+    background-color: rgb(11,113,93);
+}
+
+.login-font{
+    color: grey;
+}
+.login-font:hover{
+    color: black;
+}
+.signin{
+    background-color:green ;
+    color: white;
+    font-weight: 600;
+}
+.signin:hover{
+    background-color: rgb(1,204,61) ;
+    color: black;
+}
+.acc{
+    color: lightcyan;
+    transition: 0.3s ease all;
+    font-weight: 500;
+}
+.acc:hover{
+    color: lightgray;
+}
+
+.inputy{
+    border: none;
+    border-bottom:1px solid gray ;
+    background: transparent;
+    /* border-color: white; */
+    color: white;
+    outline: none;
+    transition: 0.3s ease all;
+    animation: blink 2s step infinite;
+}
+@keyframes step{
+    0%{
+       opacity: 0;
+    }
+    100%{
+        opacity: 5;
+
+    }
+}
+.inputy::placeholder{
+    color: white;
+
+}
+.inputy:active:not(:placeholder-shown){
+    background: transparent;
+}
+.inputy:focus{
+    border-bottom: 2px solid white;
+}

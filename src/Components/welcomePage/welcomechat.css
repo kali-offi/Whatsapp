@@ -1,0 +1,10 @@
+.contents p{
+    
+    font-size: 12px;
+}
+.welcome-body{
+    background-color: var(--body_background);
+}
+.contents h4,p{
+    color: var(--body_color);
+}
